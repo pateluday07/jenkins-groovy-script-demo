@@ -1,7 +1,7 @@
 pipeline{
 
 	agent {
-		label "Inner-Slave"
+		label "Inbound-Slave"
 	}
 	
 	stages{
