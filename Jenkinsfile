@@ -3,13 +3,6 @@ pipeline{
 	agent any
 	
 	stages{
-	    
-	    stage('github pull'){
-			steps{
-				echo "pulling code from github repo";
-				git 'https://github.com/pateluday07/jenkins-groovy-script-demo.git'
-			}
-		}
 	
 		stage('clean'){
 			steps{
